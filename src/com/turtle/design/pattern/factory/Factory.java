@@ -6,4 +6,8 @@ public interface Factory {
 
 	Product getProducts();
 
+	static Factory getBiscuitFactory() {
+		return null;
+	}
+
 }
